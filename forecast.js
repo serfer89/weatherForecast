@@ -28,7 +28,7 @@ function getForecast() {
 }
 
 new CronJob(
-  "* * 6 * * *",
+  "01 01 06 * * *",
   function() {
     getForecast();
     console.log("go!");
