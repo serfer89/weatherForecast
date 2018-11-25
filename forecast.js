@@ -35,6 +35,6 @@ new CronJob(
   },
   null,
   true,
-  "America/Los_Angeles"
+  "Europe/Kiev"
 );
 
